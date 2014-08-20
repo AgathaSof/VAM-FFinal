@@ -170,7 +170,7 @@
         void draw(){
 		
          
-            stroke(0);
+            noStroke();
             fill(0,166,214);
             rect(5,240,50,28);
             if (mousePressed == true) {
@@ -276,6 +276,7 @@
 		
 			if (mode == "circles"){
 				drawCircles();
+				noStroke();
 			}
 			else if (mode == "picasso"){
 				ongoingPicasso();
@@ -301,6 +302,7 @@
         };
 		
 		void drawCircles(){
+			noStroke();
 			var red = random(1,255);
 			var green = random(1,255);
 			var blue = random(1,255);
@@ -454,7 +456,7 @@
         void draw(){
 		
           //println(mode);
-            stroke(0);
+            noStroke();
             fill(0,166,214);
             rect(5,240,50,28);
             if (mousePressed == true) {
@@ -561,6 +563,7 @@
 			if (mode == "circles"){
 				
 				drawCircles();
+				noStroke();
 			}
 			else if (mode == "picasso"){
 				
@@ -588,6 +591,7 @@
         };
 		
 		void drawCircles(){
+			noStroke();
 			var red = random(1,255);
 			var green = random(1,255);
 			var blue = random(1,255);
@@ -750,7 +754,7 @@
         void draw(){
 		
           //println(mode);
-            stroke(0);
+            noStroke();
             fill(0,166,214);
             rect(5,240,50,28);
             if (mousePressed == true) {
@@ -860,6 +864,7 @@
 		
 			if (mode == "circles"){
 				drawCircles();
+				noStroke();
 			}
 			else if (mode == "picasso"){
 				ongoingPicasso();
@@ -885,6 +890,7 @@
         };
 		
 		void drawCircles(){
+			noStroke();
 			var red = random(1,255);
 			var green = random(1,255);
 			var blue = random(1,255);
